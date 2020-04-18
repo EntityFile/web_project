@@ -1,0 +1,54 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+}
+
+ul {
+    background-color: #181a1a;
+}
+
+li a:hover {
+    background-color: #717171;
+}
+
+h1 {
+    font-size: 300%;
+    color: #1b1a1b;
+}
+
+p {
+    color: #303030;
+    font-size: 150%;
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column {
+    flex: 33%;
+    max-width: 33%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 10px;
+    vertical-align: middle;
+}
+
+
+@media (max-width: 720px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}

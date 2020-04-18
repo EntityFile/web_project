@@ -1,0 +1,43 @@
+body {
+    background-image: radial-gradient(circle, #128deb, #0976c6, #0560a2, #07437f, #03375e);
+    font-family: "Times New Roman", Times, serif;
+    color: darkorange;
+
+}
+
+h1{
+    background: url("../images/css_logo2.png") right no-repeat;
+
+    font-size: 500%;
+    padding-bottom: 30px;
+}
+ul{
+    background-color: #312bff;
+}
+h2{
+    font-size: 200%;
+    color:yellow;
+}
+
+#about{
+    color: whitesmoke;
+}
+
+li a:hover {
+  background-color: #2c00ff;
+}
+
+#about{
+    color:white;
+}
+#about a {
+    margin-left: 40px;
+}
+
+#about a:visited {
+    color: #aaaaaa;
+}
+
+section{
+    font-size: 200%;
+}

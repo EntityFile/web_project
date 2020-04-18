@@ -1,0 +1,54 @@
+body{
+  background-image: radial-gradient(circle, #e4e4ee, #d9d9e0, #cfced3, #c4c4c6, #b9b9b9);
+}
+
+ul{
+  background-color: #4d4d4d;
+}
+
+li a:hover {
+  background-color: #1e1e1e;
+}
+
+.container > hr {
+    border: 1px solid #f1e5d2;
+    margin: 30px 0;
+}
+
+.container label > * {
+    display: table;
+}
+
+.container input {
+    background-color: #efefef;
+    padding: 10px;
+    margin: 10px;
+    width: 90%;
+    border: 10px;
+}
+
+.container .register {
+    background-color: #54d003;
+    color: black;
+    padding: 20px;
+    margin: 0;
+    border: 0;
+    width: 100%;
+    cursor: pointer;
+}
+
+.container .register:hover {
+    background-color: #12af2f;
+}
+
+.signin a {
+    color: #006bff;
+}
+
+.signin a:visited{
+  color: #050029;
+}
+
+.signin {
+    text-align: center;
+}

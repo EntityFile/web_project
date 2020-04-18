@@ -1,0 +1,46 @@
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.hiden:hover {
+    opacity: 0;
+}
+
+#html:hover {
+    background: url("../images/html_pressed.gif") no-repeat top left;
+    background-size: 100%;
+}
+
+#css:hover {
+    background: url("../images/css-pressed.png") no-repeat top right;
+    background-size: 100%;
+}
+
+ul {
+    background-color: #131313;
+}
+
+li a:hover {
+    background-color: #2a2a2a;
+}
+
+#intro {
+    font-size: 300%;
+    color: #42001c;
+}
+
+#made {
+    margin-top: 5%;
+    font-size: 300%;
+    text-align: right;
+    color: black;
+}

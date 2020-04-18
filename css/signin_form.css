@@ -1,0 +1,70 @@
+body{
+    background-image: url("../images/background.jpg");
+    font-family: "Times New Roman", Times, serif;
+}
+
+ul{
+  background: linear-gradient(261deg, rgba(0,0,0,1) 0%, rgba(226,226,226,1) 49%, rgba(0,0,0,1) 100%);
+}
+
+li a:hover {
+  background-color: #7a7a7a;
+}
+
+h1{
+    position: center;
+    color: whitesmoke;
+}
+
+.container > hr {
+    border: 1px solid #f1e5d2;
+    margin: 30px 0;
+}
+
+.container label > input {
+    display: table;
+}
+
+.container div{
+    position:center;
+}
+.container input {
+    background-color: #ffffff;
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    border: 10px;
+}
+
+.container label b{
+    color: whitesmoke;
+}
+
+.container .register {
+    background: linear-gradient(261deg, rgba(25,25,25,1) 0%, rgba(185,185,185,1) 49%, rgba(25,25,25,1) 100%);
+    color: black;
+    padding: 20px;
+    margin: 0;
+    border: 0;
+    width: 100%;
+    cursor: pointer;
+}
+
+.container .register:hover {
+    background: linear-gradient(261deg, rgba(85,85,85,1) 0%, rgba(190,199,201,1) 49%, rgba(85,85,85,1) 100%);
+}
+
+.register > p{
+    color: whitesmoke;
+}
+.register > a {
+    color: #94dbd4;
+}
+
+.register a:visited{
+  color: #4ebedb;
+}
+
+.register {
+    text-align: center;
+}

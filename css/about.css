@@ -1,0 +1,18 @@
+body {
+    background: linear-gradient(to right, #36d1dc 0%, #5b86e5 100%);
+}
+
+ul {
+    background-color: #0a93ac;
+}
+
+li a:hover {
+    background-color: #4ccaff;
+}
+
+.by {
+    position: fixed;
+    right: 0;
+    bottom: 20px;
+    width: 50%;
+}

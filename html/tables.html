@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tables</title>
+    <link rel="stylesheet" href="../css/bar.css">
+    <link rel="stylesheet" href="../css/tables.css">
+    <style>
+        body{
+            background: whitesmoke;
+            font-family: "Times New Roman", Times, serif;
+        }
+        ul{
+          background-color: #4d4d4d;
+          width:100%;
+          top:0;
+        }
+
+        li a:hover {
+          background-color: #1e1e1e;
+        }
+        table, table *{
+            border:3px solid black;
+            border-collapse: collapse;
+        }
+        table{
+                width: 100%;
+                top:60px;
+            }
+        @media (max-width: 494px) {
+            table#tbl1{
+                width: 100%;
+                top:110px;
+            }
+        }
+        @media (max-width: 260px) {
+            table#tbl1{
+                width: 100%;
+                top:160px;
+            }
+        }
+        @media (max-width: 190px) {
+            table#tbl1{
+                width: 100%;
+                top:200px;
+            }
+        }
+
+        table#tbl1 *{
+            padding: 10px;
+        }
+        table#tbl1 th{
+          background-color: black;
+            border: 3px solid white;
+            border-bottom: 0;
+            color: white;
+        }
+        table#tbl1 tr:nth-child(odd){
+            background: #cccccc;
+        }
+        table#tbl1 tr:nth-child(even){
+            background: #9f9f9f;
+        }
+
+
+    </style>
+</head>
+<body>
+    <ul>
+      <li><a href="index.html">MainPage</a></li>
+      <li><a href="intro_css.html">CSS</a></li>
+      <li><a href="intro_html.html">HTML</a></li>
+      <li><a href="about.html" id="info">About</a></li>
+      <li><a href="registration_forms.html">Registration</a></li>
+      <li><a href="signin_form.html">Sign In</a></li>
+    </ul>
+    <h1>
+        Table usage
+    </h1>
+    <br>
+    <table id="tbl1">
+        <tr>
+          <th>Object</th>
+          <th>Param1</th>
+          <th>Param2</th>
+        </tr>
+        <tr>
+          <td>First</td>
+          <td>Par1_1</td>
+          <td>Par2_1</td>
+        </tr>
+        <tr>
+          <td>Second</td>
+          <td>Par1_2</td>
+          <td>Par2_2</td>
+        </tr>
+        <tr>
+          <td>Third</td>
+          <td>Par1_32</td>
+          <td>Par2_34</td>
+        </tr>
+        <tr>
+          <td>Forth</td>
+          <td>Par1_42</td>
+          <td>Par2_3412412</td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <colgroup>
+            <col span="3" style="background-color: green; color:#1e1e1e">
+            <col style="background-color: yellow;color:#1e1e1e">
+        </colgroup>
+        <tr>
+          <th>Object</th>
+          <th>Param1</th>
+          <th>Param2</th>
+          <th>Param3</th>
+        </tr>
+        <tr>
+          <td>First</td>
+          <td>Par1_1</td>
+          <td>Par2_1</td>
+          <td>Par2_412352</td>
+        </tr>
+        <tr>
+          <td>Second</td>
+          <td>Par1_2</td>
+          <td>Par2_2</td>
+          <td>Par2_65234</td>
+        </tr>
+        <tr>
+          <td>Third</td>
+          <td>Par1_32</td>
+          <td>Par2_34</td>
+          <td>Par2_3</td>
+        </tr>
+        <tr>
+          <td>Forth</td>
+          <td>Par1_42</td>
+          <td>Par2_3412412</td>
+          <td>Par2_4</td>
+        </tr>
+    </table>
+    <br>
+    <h2>
+        Grid usage
+    </h2>
+    <div class="grid">
+      <div class="it1">First</div>
+      <div class="it2" style="background-color: green">Second</div>
+      <div class="it3" style="background-color: brown">Third</div>
+      <div class="it4" style="background-color: #4ccaff">Forth</div>
+      <div class="it5" style="background-color: red">Fifth</div>
+      <div class="it6" style="background-color: yellow">Sixth</div>
+      <div class="it7" style="background-color: orange">Seventh</div>
+    </div>
+    <br>
+    <div class="grid2">
+      <div class="it1">First</div>
+      <div class="it2" style="background-color: green">Second</div>
+      <div class="it3" style="background-color: brown">Third</div>
+      <div class="it4" style="background-color: #4ccaff">Forth</div>
+      <div class="it5" style="background-color: red">Fifth</div>
+      <div class="it6" style="background-color: yellow">Sixth</div>
+      <div class="it7" style="background-color: orange">Seventh</div>
+    </div>
+</body>
+</html>

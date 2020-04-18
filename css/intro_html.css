@@ -1,0 +1,41 @@
+body{
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(205,80,12,1) 0%, rgba(228,189,46,1) 92%);
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+
+}
+
+h1{
+  background: url("../images/html_log.png") right no-repeat;
+  font-size: 500%;
+  padding-bottom: 30px;
+}
+ul{
+  background-color: #ff5202;
+}
+
+li a{
+  color: black;
+}
+
+li a:hover {
+  background-color: #ff0005;
+}
+
+section{
+  font-family: Calibri, serif;
+}
+
+.usage{
+  font-size: 200%;
+}
+.usage a {
+  color: black;
+  margin-left: 40px;
+}
+
+.used{
+  color: black;
+  font-size: 150%
+
+}
